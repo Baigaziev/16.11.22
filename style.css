@@ -7,6 +7,10 @@ body {
 }
 nav {
   background-color: gray;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 nav ul {
   padding: 0;
@@ -21,8 +25,10 @@ a {
   padding: 20px;
   color: white;
   transition: all 500ms ease-in;
+  letter-spacing: 5px;
 }
 a:hover {
   background-color: black;
-  font-family: 'Oswald', sans-serif;;
+  color: burlywood;
+  font-family: 'Oswald', sans-serif;
 }
